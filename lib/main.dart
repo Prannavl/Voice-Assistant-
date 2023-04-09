@@ -15,13 +15,13 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Constantine',
       
-      theme: ThemeData.light(
+      theme: ThemeData.dark(
         useMaterial3: true
       )
           .copyWith(
-            scaffoldBackgroundColor: Pallete.whiteColor,
+            scaffoldBackgroundColor:Colors.black,
             appBarTheme: const AppBarTheme(
-              backgroundColor: Pallete.whiteColor,
+              backgroundColor: Colors.black,
             )
 
           ),
